@@ -1,0 +1,19 @@
+{
+  "name": "merkle-tree-data-structures",
+  "version": "1.0.0",
+  "description": "Merkle  is the most popular data structures used in the Ethereum Blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/semslam/merkle-tree-data-structures.git"
+  },
+  "author": "Ibrahim Olanrewaju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/semslam/merkle-tree-data-structures/issues"
+  },
+  "homepage": "https://github.com/semslam/merkle-tree-data-structures#readme"
+}
