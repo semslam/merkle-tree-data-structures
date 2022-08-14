@@ -63,7 +63,7 @@ function createMerkleTree(leaves) {
 
 async function main() {
     let leaves = [];
-
+    
     for (let leavesCreated = 0; leavesCreated < process.argv[2]; leavesCreated++) {
         let diceRoll = Math.trunc(Math.random() * 100);
         leaves.push(createLeaf(diceRoll));

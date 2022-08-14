@@ -4,7 +4,9 @@
   "description": "Merkle  is the most popular data structures used in the Ethereum Blockchain",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node index.js",
+    "start": "npm run build",
+    "test": "jest --watchAll --detectOpenHandles"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/semslam/merkle-tree-data-structures/issues"
   },
-  "homepage": "https://github.com/semslam/merkle-tree-data-structures#readme"
+  "homepage": "https://github.com/semslam/merkle-tree-data-structures#readme",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
 }
