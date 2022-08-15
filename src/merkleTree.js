@@ -13,7 +13,6 @@ class MerkleTree{
      * @returns {Object}
      */
     createTree(leaves) {
-    
         if((!leaves && !(leaves instanceof Array)) || leaves.length === 0){
             throw new Error("Leaves can't be empty")
         }
@@ -40,7 +39,6 @@ class MerkleTree{
      * @returns {Array}
      */
     createTreeLevel() {
-        
         const numLeaves = this.currentLeaves.length;
     
         if (numLeaves < 2){

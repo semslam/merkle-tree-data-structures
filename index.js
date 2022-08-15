@@ -38,7 +38,6 @@ async function main() {
 
     let leaves = [];
     for(let leavesCreated = 0; leavesCreated < process.argv.length; leavesCreated++) {
-         
         leaves.push(new Leaf(Math.trunc(Math.random() * 100)).createLeaf());
     }
 
