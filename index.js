@@ -27,6 +27,19 @@
 // 2. Improve the code if you are able. Ensure it builds and runs.
 // 3. Run the test cases you deem necessary to convince yourself the code is working properly.
 
+// Summary of the Code Review
+// 1. Avoid writing boilerplate code.
+// 2. Using template literal placeholder syntax is the best practice in ES6 to concatenate strings.
+// 3. Always format the code to make it easier to read.
+// 4. Used triple equal when you want to compare the same data type value.
+// 5. Used ternary operators when you have a single-line if-else statement. It simplifies the code and makes it more readable.
+//    Note: Avoid using nested ternary operators; they are hard to maintain and read.
+// 6. Using the separation of concerns principles, break down complex functions into new separate functions and move related functions into new classes. 
+//    Read more on SOLID Design Principles.
+// 7. Used proper naming conventions for fields, parameters, function and class.
+// 8. Always remove any variables or functions that are no longer in use from the code base.
+
+
 const Leaf = require('./src/leaf');
 const MerkleTree =require('./src/merkleTree');
 const Transaction = require('./src/transaction');

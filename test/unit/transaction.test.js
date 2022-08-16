@@ -1,5 +1,5 @@
 const Transaction = require('../../src/transaction')
-describe('Leaf Test', () => {
+describe('Transaction Test', () => {
       const tree = {
         nodes: [
           [
@@ -28,7 +28,7 @@ describe('Leaf Test', () => {
         root: '9298b0c2b25b71f7173d42044f1df076e875b57bffddddb3a9ea4987a5c2d26f'
       }
       const leafIndex = 1;
-    test('Test Leaf class createLeaf with param!', () => {
+    test('Test Transaction class createProof with param!', () => {
       expect(Transaction.createProof(tree,leafIndex)).toBeTruthy();
       expect(Transaction.createProof(tree,0)).toBeTruthy();
       expect(Transaction.createProof(tree,leafIndex)).toEqual(expect.arrayContaining([expect.any(String)]));
@@ -40,7 +40,7 @@ describe('Leaf Test', () => {
              
     });
 
-    test('Test class Leaf createLeaf with wrong param!', () => {
+    test('Test Transaction class createProof with wrong param!', () => {
         
         expect(() => { Transaction.createProof()}).toThrowError("Wrong tree or leafIndex params is passed!");
         expect(() => { Transaction.createProof(tree,undefined)}).toThrowError("Wrong tree or leafIndex params is passed!");

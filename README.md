@@ -6,7 +6,7 @@ Merkle  is the most popular data structures used in the Ethereum Blockchain
 ```
 $ npm install
 ```
-2. Run this commands below to start the APP:
+2. To run the APP, run the commands below and pass arguments at the sufix:
 ```
 $ npm run start
 ```
